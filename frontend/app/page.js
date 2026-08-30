@@ -77,8 +77,9 @@ export default function PathFinderApp() {
     { sender: 'ai', text: "Welcome to PathFinder Refinement. Tell me if you want to tweak your roadmap, e.g. 'I don't want to code' or 'Reduce study hours'." }
   ]);
 
-  // API base URL
-  const API_BASE = 'http://localhost:5000/api';
+  // API base URL from environment variables; fallback only for local development
+  const API_BASE = (process.env.NEXT_PUBLIC_BACKEND_URL || ' https://path-finder-backend-0rkz.onrender.com/').replace(/\/$/, '') + '/api';
+  const AI_BASE = (process.env.NEXT_PUBLIC_AI_SERVICE_URL || 'https://path-finder-ai-3c2j.onrender.com/').replace(/\/$/, '');
 
   const handleLogout = () => {
     localStorage.removeItem('pathfinder_token');
