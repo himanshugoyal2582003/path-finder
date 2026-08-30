@@ -12,7 +12,7 @@ ai-service/*.pyc
 .venv
 .agents
 .claude
-
+_venv311
 
 # OS files
 .DS_Store

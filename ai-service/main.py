@@ -11,8 +11,32 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, ConfigDict
 
 from typing import List, Dict, Any, Optional
-from langgraph.graph import StateGraph, END
-from job_market import extract_skill_tags
+
+try:
+    from langgraph.graph import StateGraph, END
+    LANGGRAPH_AVAILABLE = True
+except ImportError:
+    StateGraph = None
+    END = None
+    LANGGRAPH_AVAILABLE = False
+
+try:
+    from job_market import extract_skill_tags
+    JOB_MARKET_AVAILABLE = True
+except ImportError:
+    JOB_MARKET_AVAILABLE = False
+    def extract_skill_tags(text: str, limit: int = 10) -> List[str]:
+        text = (text or "").lower()
+        keywords = [
+            "python", "javascript", "sql", "figma", "excel", "aws", "azure",
+            "docker", "kubernetes", "data", "analytics", "design", "product",
+            "marketing", "sales", "research", "communication", "testing"
+        ]
+        found = []
+        for keyword in keywords:
+            if keyword in text and keyword not in found:
+                found.append(keyword)
+        return found[:limit]
 
 BASE_DIR = Path(__file__).parent
 ENV_PATH = BASE_DIR / ".env"
@@ -1027,28 +1051,27 @@ def explanation_agent(state: AgentState) -> AgentState:
     state["explanations"] = explanations
     return state
 
-# Build LangGraph workflow StateGraph
-workflow = StateGraph(AgentState)
+if LANGGRAPH_AVAILABLE:
+    workflow = StateGraph(AgentState)
 
-# Add Nodes
-workflow.add_node("extract_skills", skill_extraction_agent)
-workflow.add_node("match_careers", career_match_agent)
-workflow.add_node("analyze_gaps", gap_analysis_agent)
-workflow.add_node("build_roadmaps", roadmap_builder_agent)
-workflow.add_node("explain_results", explanation_agent)
+    workflow.add_node("extract_skills", skill_extraction_agent)
+    workflow.add_node("match_careers", career_match_agent)
+    workflow.add_node("analyze_gaps", gap_analysis_agent)
+    workflow.add_node("build_roadmaps", roadmap_builder_agent)
+    workflow.add_node("explain_results", explanation_agent)
 
-# Set entry point
-workflow.set_entry_point("extract_skills")
+    workflow.set_entry_point("extract_skills")
 
-# Define transitions
-workflow.add_edge("extract_skills", "match_careers")
-workflow.add_edge("match_careers", "analyze_gaps")
-workflow.add_edge("analyze_gaps", "build_roadmaps")
-workflow.add_edge("build_roadmaps", "explain_results")
-workflow.add_edge("explain_results", END)
+    workflow.add_edge("extract_skills", "match_careers")
+    workflow.add_edge("match_careers", "analyze_gaps")
+    workflow.add_edge("analyze_gaps", "build_roadmaps")
+    workflow.add_edge("build_roadmaps", "explain_results")
+    workflow.add_edge("explain_results", END)
 
-# Compile graph
-graph = workflow.compile()
+    graph = workflow.compile()
+else:
+    workflow = None
+graph = None
 
 # â”€â”€â”€ FastAPI Endpoints â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 @app.get("/health")
@@ -1140,53 +1163,53 @@ def get_job_market_roles():
 
 @app.post("/api/agent/pipeline", response_model=PipelineResponse)
 def run_pipeline(payload: PipelineRequest):
-    try:
-        # Prepare initial state
-        initial_state = {
-            "skills": payload.skills,
-            "interests": payload.interests,
-            "goalText": payload.goalText,
-            "hoursPerWeek": payload.hoursPerWeek,
-            "timelineMonths": payload.timelineMonths,
-            "budgetPref": payload.budgetPref,
-            "extracted_profile": {},
-            "matches": [],
-            "gaps": {},
-            "roadmaps": {},
-            "explanations": {}
+    if not LANGGRAPH_AVAILABLE:
+        skill_set = " , ".join(payload.skills or [])
+        recommendations = []
+        for i, skill in enumerate(payload.skills[:5], start=1):
+            recommendations.append({
+                "roleName": f"{skill or 'Career'} Path",
+                "description": f"Build a practical roadmap around {skill or payload.goalText or 'your target role'} with a focused learning plan.",
+                "requiredSkills": [skill] if skill else ["Foundations"],
+                "fitScore": 78 + min(i * 3, 12),
+                "explanation": "Fallback keyword-based recommendation: this route is active because the ML graph dependency is not installed.",
+                "phases": [{
+                    "phaseName": "Phase 1: Foundations",
+                    "items": [{
+                        "title": f"Study {skill or 'your target area'} fundamentals and practice a small project.",
+                        "resourceUrl": "https://roadmap.sh/",
+                        "estHours": 6,
+                    }]
+                }],
+                "matchedBy": "keyword-fallback",
+                "jobMarketLinks": {},
+            })
+        return {
+            "recommendations": recommendations,
+            "modelUsed": "keyword-fallback",
+            "categoryPrior": None,
         }
-        
-        # Execute LangGraph
+    try:
+        initial_state = {"skills": payload.skills, "interests": payload.interests, "goalText": payload.goalText, "hoursPerWeek": payload.hoursPerWeek, "timelineMonths": payload.timelineMonths, "budgetPref": payload.budgetPref, "extracted_profile": {}, "matches": [], "gaps": {}, "roadmaps": {}, "explanations": {}}
         print("Invoking LangGraph Orchestrator pipeline...")
         final_state = graph.invoke(initial_state)
-        
-        # Format response
         recs = []
         for match in final_state["matches"][:6]:
-
-            name      = match["roleName"]
+            name = match["roleName"]
             role_data = match["roleData"]
             recs.append({
-                "roleName":      name,
-                "description":   role_data["description"],
+                "roleName": name,
+                "description": role_data["description"],
                 "requiredSkills": role_data["requiredSkills"],
-                "fitScore":      match["fitScore"],
-                "explanation":   final_state["explanations"].get(name, f"Recommended path based on skill profile for {name}."),
-                "phases":        final_state["roadmaps"].get(name, []),
-                "matchedBy":     match.get("matchedBy", "tfidf"),
+                "fitScore": match["fitScore"],
+                "explanation": final_state["explanations"].get(name, f"Recommended path based on skill profile for {name}."),
+                "phases": final_state["roadmaps"].get(name, []),
+                "matchedBy": match.get("matchedBy", "tfidf"),
                 "jobMarketLinks": role_data.get("jobMarketLinks"),
-
             })
-
-
         model_used = final_state.get("model_used", final_state.get("_model_used", "tfidf"))
         category_prior = final_state["extracted_profile"].get("category_prior")
-        return {
-            "recommendations": recs,
-            "modelUsed": model_used,
-            "categoryPrior": category_prior,
-        }
-        
+        return {"recommendations": recs, "modelUsed": model_used, "categoryPrior": category_prior}
     except Exception as e:
         print(f"Pipeline error: {e}")
         raise HTTPException(status_code=500, detail=str(e))

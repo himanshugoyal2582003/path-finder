@@ -5,7 +5,11 @@ from html import unescape
 from typing import Dict, Iterable, List
 
 import requests
-from bs4 import BeautifulSoup
+
+try:
+    from bs4 import BeautifulSoup
+except ImportError:
+    BeautifulSoup = None
 
 
 SKILL_KEYWORDS = {
@@ -47,10 +51,14 @@ SKILL_KEYWORDS = {
 def clean_text(text: str) -> str:
     if not isinstance(text, str):
         return ""
-    text = BeautifulSoup(unescape(text), "html.parser").get_text(" ")
-    text = re.sub(r"http\S+|www\.\S+", " ", text)
-    text = re.sub(r"[^\w\s\.\,\-\+\/#]", " ", text)
-    return re.sub(r"\s+", " ", text).strip()
+    cleaned = unescape(text)
+    if BeautifulSoup is not None:
+        cleaned = BeautifulSoup(cleaned, "html.parser").get_text(" ")
+    else:
+        cleaned = re.sub(r"<[^>]+>", " ", cleaned)
+    cleaned = re.sub(r"http\S+|www\.\S+", " ", cleaned)
+    cleaned = re.sub(r"[^\w\s\.\,\-\+\/\#]", " ", cleaned)
+    return re.sub(r"\s+", " ", cleaned).strip()
 
 
 def extract_skill_tags(text: str, limit: int = 10) -> List[str]:
