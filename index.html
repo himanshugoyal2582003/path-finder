@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PathFinder — AI Career Navigation</title>
+  <meta name="description" content="Personalized career navigation and learning roadmaps powered by AI. See where your strengths can take you.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-light">
+
+  <!-- Main Container -->
+  <main id="app-root">
+    
+    <!-- LANDING PAGE VIEW -->
+    <section id="view-landing" class="view-section active">
+      <header class="app-header">
+        <div class="logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-indigo"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+          <span class="logo-text">PathFinder</span>
+        </div>
+        <nav class="nav-links">
+          <a href="#how-it-works">How it works</a>
+          <a href="#example" id="btn-example-landing-nav">Example Path</a>
+        </nav>
+        <div>
+          <button class="btn btn-primary start-intake-btn">Build my path</button>
+        </div>
+      </header>
+
+      <div class="hero-container">
+        <div class="hero-content">
+          <span class="eyebrow">AI Career Navigation</span>
+          <h1 class="hero-title">Your next career move, mapped clearly.</h1>
+          <p class="hero-subtitle">Tell PathFinder where you are, what you enjoy, and where you want to go. Get a personalized route with the skills, milestones, and next steps to move forward.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary start-intake-btn">Build my path</button>
+            <button class="btn btn-secondary" id="btn-see-example">See an example path</button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="3d-container compass-container">
+            <img src="images/compass.png" alt="PathFinder Compass" class="floating-3d-object" id="hero-compass">
+            <div class="glow-radial"></div>
+          </div>
+        </div>
+      </div>
+
+      <section id="how-it-works" class="info-section">
+        <div class="section-header">
+          <h2 class="section-title">How PathFinder works</h2>
+          <p class="section-subtitle">A multi-agent AI system that translates your background into direction.</p>
+        </div>
+        <div class="grid-steps">
+          <div class="step-card">
+            <div class="step-num">01</div>
+            <h3 class="step-card-title">Share your story</h3>
+            <p>Tell us about your background, what tasks energize you, and your constraints in plain language.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">02</div>
+            <h3 class="step-card-title">Check inferred profile</h3>
+            <p>Review the skills, strengths, and confidence levels our orchestrator extracts from your profile.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">03</div>
+            <h3 class="step-card-title">Explore and compare</h3>
+            <p>See 3 tailored paths with transparent explanations, fit scores, skill gap analysis, and priority tuning.</p>
+          </div>
+          <div class="step-card">
+            <div class="step-num">04</div>
+            <h3 class="step-card-title">Follow the roadmap</h3>
+            <p>Get a phased week-by-week learning roadmap with curated resources and track your progress.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="app-footer">
+        <p>&copy; 2026 PathFinder. Built for the future of career exploration.</p>
+      </footer>
+    </section>
+
+    <!-- INTAKE VIEW -->
+    <section id="view-intake" class="view-section">
+      <header class="intake-header">
+        <div class="logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+          <span class="logo-text">PathFinder Intake</span>
+        </div>
+        <button class="btn btn-tertiary exit-intake-btn">Exit setup</button>
+      </header>
+
+      <div class="intake-progress-bar">
+        <div class="progress-fill" id="intake-progress-indicator" style="width: 25%;"></div>
+      </div>
+
+      <div class="intake-flow-container">
+        <!-- Form Step Card -->
+        <div class="intake-card">
+          <span class="step-indicator" id="step-number-label">Stage 1 of 4</span>
+          
+          <form id="intake-form" onsubmit="event.preventDefault();">
+            
+            <!-- STAGE 1: Where you are -->
+            <div class="intake-step active" data-step="1">
+              <h2 class="step-title">Where are you currently at?</h2>
+              <p class="step-description">Tell us your current role or study status to help us ground the roadmap.</p>
+              
+              <div class="form-group">
+                <label for="input-role">Current status / field of study</label>
+                <input type="text" id="input-role" placeholder="e.g., Computer Science Student, self-taught coder, etc." required>
+              </div>
+
+              <div class="form-group">
+                <label>Experience Level</label>
+                <div class="option-grid">
+                  <label class="option-card">
+                    <input type="radio" name="experience-level" value="student" checked>
+                    <span class="option-title">Student</span>
+                    <span class="option-desc">Currently in college or secondary school</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="experience-level" value="early-career">
+                    <span class="option-title">Early Career</span>
+                    <span class="option-desc">0-2 years of working experience</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="experience-level" value="career-switcher">
+                    <span class="option-title">Career Switcher</span>
+                    <span class="option-desc">Looking to transition to a new field</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="input-location">Location Preference</label>
+                <select id="input-location">
+                  <option value="remote">Remote Preferred</option>
+                  <option value="hybrid">Hybrid</option>
+                  <option value="office">In-Office (Metropolitan India)</option>
+                  <option value="agnostic" selected>No Preference</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- STAGE 2: What energizes you -->
+            <div class="intake-step" data-step="2">
+              <h2 class="step-title">What energizes you?</h2>
+              <p class="step-description">Select the activities and styles of work that keep you focused and motivated.</p>
+              
+              <div class="form-group">
+                <label>Choose 2-4 primary interests</label>
+                <div class="option-grid option-grid-multi">
+                  <div class="interest-chip-card" data-interest="visual-design">
+                    <div class="chip-icon">🎨</div>
+                    <div class="chip-label">Visual Design & UX</div>
+                    <p class="chip-sub">Creating layouts, typography, and interactive interfaces</p>
+                  </div>
+                  <div class="interest-chip-card" data-interest="problem-solving">
+                    <div class="chip-icon">💻</div>
+                    <div class="chip-label">Coding & Problem Solving</div>
+                    <p class="chip-sub">Building algorithms, database design, backend logic</p>
+                  </div>
+                  <div class="interest-chip-card" data-interest="data-analysis">
+                    <div class="chip-icon">📊</div>
+                    <div class="chip-label">Analyzing Data & Trends</div>
+                    <p class="chip-sub">Finding stories in numbers, building dashboards</p>
+                  </div>
+                  <div class="interest-chip-card" data-interest="writing">
+                    <div class="chip-icon">✍️</div>
+                    <div class="chip-label">Writing & Communication</div>
+                    <p class="chip-sub">Explaining complex ideas, technical blogging, content strategy</p>
+                  </div>
+                  <div class="interest-chip-card" data-interest="experimentation">
+                    <div class="chip-icon">🧪</div>
+                    <div class="chip-label">Experimentation & Growth</div>
+                    <p class="chip-sub">A/B testing, marketing loops, optimization</p>
+                  </div>
+                  <div class="interest-chip-card" data-interest="user-empathy">
+                    <div class="chip-icon">👥</div>
+                    <div class="chip-label">User Research & Empathy</div>
+                    <p class="chip-sub">Interviewing users, understanding customer pain points</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- STAGE 3: What you can do -->
+            <div class="intake-step" data-step="3">
+              <h2 class="step-title">What can you currently do?</h2>
+              <p class="step-description">Add skills you have some familiarity with. Our AI will group them and let you adjust confidence.</p>
+              
+              <div class="form-group">
+                <label for="input-skills">Add skills (type and press Enter or comma)</label>
+                <div class="skill-input-container">
+                  <div id="skills-tags-list"></div>
+                  <input type="text" id="input-skills" placeholder="e.g. JavaScript, SQL, Figma, Python...">
+                </div>
+                <div class="skills-suggestions">
+                  <span>Suggestions:</span>
+                  <button type="button" class="btn-suggest-skill">HTML/CSS</button>
+                  <button type="button" class="btn-suggest-skill">Excel</button>
+                  <button type="button" class="btn-suggest-skill">Figma</button>
+                  <button type="button" class="btn-suggest-skill">Python</button>
+                  <button type="button" class="btn-suggest-skill">Writing</button>
+                  <button type="button" class="btn-suggest-skill">SQL</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- STAGE 4: Where you want to go -->
+            <div class="intake-step" data-step="4">
+              <h2 class="step-title">Your goals and constraints</h2>
+              <p class="step-description">Specify your target learning availability and primary career objectives.</p>
+              
+              <div class="form-group">
+                <label for="range-hours">Weekly study availability (Hours/Week)</label>
+                <div class="range-display-container">
+                  <input type="range" id="range-hours" min="2" max="40" value="10" step="1">
+                  <span id="hours-display-val" class="mono-badge">10 hrs/week</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="select-learning">Learning Mode Preference</label>
+                <select id="select-learning">
+                  <option value="self-paced" selected>Self-paced (Online resources, documentation)</option>
+                  <option value="mixed">Mixed (Courses + building projects)</option>
+                  <option value="mentor-led">Mentor-led / Cohort based</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="input-career-goal">Primary Career Objective</label>
+                <input type="text" id="input-career-goal" placeholder="e.g., Land a front-end internship, build a startup, transition to data science...">
+              </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="intake-actions">
+              <button type="button" class="btn btn-secondary" id="btn-intake-prev" disabled>Back</button>
+              <button type="button" class="btn btn-primary" id="btn-intake-next">Next</button>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- PIPELINE LOADING INTERSTITIAL -->
+    <section id="view-loading-pipeline" class="view-section">
+      <div class="pipeline-loader-content">
+        <div class="loader-visual-wrapper">
+          <div class="glow-radial-loader"></div>
+          <img src="images/compass.png" alt="Loading" class="rotating-compass" id="loader-compass">
+        </div>
+        <h2 id="pipeline-loading-title">Extracting profile skills...</h2>
+        <div class="pipeline-steps-indicator">
+          <div class="pipeline-step-dot active" id="dot-step-1"></div>
+          <div class="pipeline-step-dot" id="dot-step-2"></div>
+          <div class="pipeline-step-dot" id="dot-step-3"></div>
+          <div class="pipeline-step-dot" id="dot-step-4"></div>
+          <div class="pipeline-step-dot" id="dot-step-5"></div>
+        </div>
+        <p class="pipeline-step-text" id="pipeline-loading-desc">Comparing your profile against 20+ roles</p>
+      </div>
+    </section>
+
+    <!-- PROFILE REVIEW VIEW (editable inferred checkpoint) -->
+    <section id="view-profile-review" class="view-section">
+      <header class="app-header">
+        <div class="logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+          <span class="logo-text">PathFinder Checkpoint</span>
+        </div>
+      </header>
+
+      <div class="review-grid-container">
+        <div class="review-left">
+          <div class="review-title-section">
+            <span class="eyebrow">Trust Checkpoint</span>
+            <h2>Review your inferred skills</h2>
+            <p>Our Skill Extraction Agent read your onboarding answers and inferred the following strengths. Adjust your confidence levels before we build your roadmap.</p>
+          </div>
+
+          <div class="review-card">
+            <div class="review-card-header">
+              <h3>Inferred Skills & Confidence</h3>
+              <button class="btn btn-tertiary" id="btn-add-skill-review">+ Add Skill</button>
+            </div>
+            
+            <div id="review-skills-sliders-container">
+              <!-- Sliders will be loaded here dynamically -->
+            </div>
+          </div>
+        </div>
+
+        <div class="review-right">
+          <div class="review-visual-card">
+            <div class="visual-img-container">
+              <img src="images/constellation.png" alt="Skill Constellation" class="floating-3d-object" id="review-constellation">
+            </div>
+            
+            <div class="inferred-profile-card">
+              <h4>Extracted Profile Summary</h4>
+              <p id="inferred-summary-text">A final-year student interested in visual communication, writing, and structured problem solving, looking for a flexible career path.</p>
+              
+              <div class="profile-details-mini">
+                <div class="detail-item">
+                  <span class="detail-label">Weekly Hours:</span>
+                  <span class="detail-value" id="review-hours-val">10 hours</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Learning style:</span>
+                  <span class="detail-value" id="review-style-val">Self-paced</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="generate-paths-box">
+              <button class="btn btn-primary btn-full-width" id="btn-generate-roadmaps">Generate my roadmaps</button>
+              <p class="generate-disclaimer">PathFinder combines your skills, interests, and constraints to score roles. Generates in 3 seconds.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DASHBOARD VIEW -->
+    <section id="view-dashboard" class="view-section">
+      
+      <!-- Top navbar -->
+      <nav class="dashboard-nav">
+        <div class="logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+          <span class="logo-text">PathFinder Dashboard</span>
+        </div>
+        <div class="nav-links">
+          <a href="#" class="active" id="nav-btn-mypath">My Path</a>
+          <a href="#" id="nav-btn-explore">Compare Paths</a>
+          <a href="#" id="nav-btn-profile-re">Edit Intake</a>
+        </div>
+        <div class="profile-avatar-container">
+          <div class="avatar">AS</div>
+          <span class="avatar-name" id="user-avatar-label">Arin S.</span>
+        </div>
+      </nav>
+
+      <div class="dashboard-layout">
+        
+        <!-- Left rail: paths selector -->
+        <aside class="dashboard-left-rail">
+          <div class="progress-card">
+            <h4>Roadmap Progress</h4>
+            <div class="progress-ring-wrapper">
+              <svg width="120" height="120" class="progress-ring-svg">
+                <circle class="progress-ring-bg" stroke="#f1f5f9" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" />
+                <circle class="progress-ring-indicator" stroke="#5967f2" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" stroke-dasharray="314.15" stroke-dashoffset="314.15" id="dashboard-progress-circle" />
+              </svg>
+              <div class="progress-ring-text">
+                <span id="dashboard-progress-percent">0%</span>
+                <span class="progress-sub">Complete</span>
+              </div>
+            </div>
+            <div class="progress-details">
+              <span id="progress-complete-count">0 of 12 items</span>
+              <span id="progress-next-milestone">Next: Foundation Phase</span>
+            </div>
+          </div>
+
+          <div class="paths-menu-card">
+            <div class="card-title-row">
+              <h3>Recommended Paths</h3>
+              <button class="btn-tune-trigger" id="btn-open-priority-tuner">Tune</button>
+            </div>
+            
+            <div class="paths-menu-list" id="dashboard-paths-menu-list">
+              <!-- Renders recommendations dynamically -->
+            </div>
+          </div>
+        </aside>
+
+        <!-- Center canvas: graph -->
+        <section class="dashboard-center-canvas">
+          <div class="canvas-header">
+            <div>
+              <span class="eyebrow" id="center-path-eyebrow">Active Path Roadmap</span>
+              <h2 id="center-path-title">Product Designer</h2>
+            </div>
+            <div class="canvas-view-toggle">
+              <button class="toggle-btn active" id="btn-view-graph">Graph view</button>
+              <button class="toggle-btn" id="btn-view-timeline">Timeline view</button>
+            </div>
+          </div>
+
+          <!-- The Graph Container -->
+          <div class="graph-canvas-wrapper" id="graph-view-container">
+            <svg id="graph-svg-lines" class="graph-lines"></svg>
+            <div id="graph-nodes-container" class="graph-nodes-grid">
+              <!-- Nodes placed here dynamically -->
+            </div>
+          </div>
+
+          <!-- Timeline Container (Alternative view) -->
+          <div class="timeline-view-container hidden" id="timeline-view-container">
+            <!-- Render timeline list here -->
+          </div>
+        </section>
+
+        <!-- Right rail: inspector -->
+        <aside class="dashboard-right-rail" id="inspector-rail">
+          <div class="inspector-card">
+            <div class="inspector-header">
+              <span class="fit-badge badge-strong" id="inspector-fit-estimate">Strong Match</span>
+              <button class="btn-save-path" id="btn-save-active-path" aria-label="Save Path">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="bookmark-icon"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+              </button>
+            </div>
+
+            <h3 class="inspector-title" id="inspector-role-name">Product Designer</h3>
+            <p class="inspector-summary" id="inspector-role-summary">Focuses on visual communication, prototyping, user research, and crafting digital interfaces that align user needs with business goals.</p>
+
+            <div class="accordion-section active">
+              <h4 class="accordion-trigger">Why this path fits</h4>
+              <div class="accordion-content">
+                <p id="inspector-fit-why">This path uses your strengths in visual communication, writing, and empathy, and matches your preference for a creative, flexible career.</p>
+              </div>
+            </div>
+
+            <div class="accordion-section active">
+              <h4 class="accordion-trigger">Skill Bridge Analysis</h4>
+              <div class="accordion-content">
+                <div class="skills-bridge-group">
+                  <span class="bridge-title">Strong Overlap (In Place)</span>
+                  <div class="skills-chips-wrapper" id="inspector-overlap-skills">
+                    <span class="skill-pill pill-overlap">Visual Design</span>
+                    <span class="skill-pill pill-overlap">Writing</span>
+                  </div>
+                </div>
+                <div class="skills-bridge-group">
+                  <span class="bridge-title">Growth Gaps (To Build)</span>
+                  <div class="skills-chips-wrapper" id="inspector-gap-skills">
+                    <span class="skill-pill pill-gap">UX Prototyping</span>
+                    <span class="skill-pill pill-gap">User Research</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-section active">
+              <h4 class="accordion-trigger">Trade-offs & Constraints</h4>
+              <div class="accordion-content">
+                <ul class="tradeoffs-list" id="inspector-tradeoffs-list">
+                  <li><strong>Pros:</strong> High creative autonomy, remote-friendly, high demand in tech.</li>
+                  <li><strong>Cons:</strong> Requires building a self-directed portfolio; subjective feedback can be challenging.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="inspector-actions">
+              <button class="btn btn-primary btn-full-width" id="btn-start-path">Start this path</button>
+              <button class="btn btn-secondary btn-full-width" id="btn-compare-inspector">Compare with others</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Bottom weekly action strip -->
+      <footer class="dashboard-bottom-strip">
+        <div class="strip-header">
+          <div class="strip-header-title">
+            <span class="eyebrow" id="weekly-strip-eyebrow">Phase 1: Foundation</span>
+            <h3>Weekly Action Items</h3>
+          </div>
+          <span class="strip-hours-est" id="weekly-hours-est">Estimated: 8 hours total</span>
+        </div>
+        <div class="weekly-actions-list" id="weekly-actions-container">
+          <!-- Populated dynamically -->
+        </div>
+      </footer>
+    </section>
+
+    <!-- PATH COMPARISON MODAL VIEW -->
+    <div id="modal-compare-paths" class="modal-backdrop">
+      <div class="modal-content-wrapper">
+        <div class="modal-header">
+          <h2>Compare Career Options</h2>
+          <button class="btn-close-modal" id="btn-close-compare-modal">&times;</button>
+        </div>
+        
+        <div class="compare-layout">
+          <!-- Priority Tuner Side Panel -->
+          <div class="priority-tuner-panel">
+            <h3>Tune AI Priorities</h3>
+            <p class="tuner-desc">Adjust the weighting sliders below. The orchestrator will re-calculate fit scores instantly based on your preferences.</p>
+            
+            <div class="tuner-sliders-list">
+              <div class="tuner-slider-group">
+                <div class="slider-labels">
+                  <span class="slider-title">Speed (Fastest timeline)</span>
+                  <span class="slider-val" id="val-p-speed">3/5</span>
+                </div>
+                <input type="range" class="tuner-slider" id="slider-p-speed" min="1" max="5" value="3">
+              </div>
+
+              <div class="tuner-slider-group">
+                <div class="slider-labels">
+                  <span class="slider-title">Starting Income Potential</span>
+                  <span class="slider-val" id="val-p-income">4/5</span>
+                </div>
+                <input type="range" class="tuner-slider" id="slider-p-income" min="1" max="5" value="4">
+              </div>
+
+              <div class="tuner-slider-group">
+                <div class="slider-labels">
+                  <span class="slider-title">Creativity & Autonomy</span>
+                  <span class="slider-val" id="val-p-creativity">4/5</span>
+                </div>
+                <input type="range" class="tuner-slider" id="slider-p-creativity" min="1" max="5" value="4">
+              </div>
+
+              <div class="tuner-slider-group">
+                <div class="slider-labels">
+                  <span class="slider-title">Job Stability & Demand</span>
+                  <span class="slider-val" id="val-p-stability">3/5</span>
+                </div>
+                <input type="range" class="tuner-slider" id="slider-p-stability" min="1" max="5" value="3">
+              </div>
+
+              <div class="tuner-slider-group">
+                <div class="slider-labels">
+                  <span class="slider-title">Workplace Flexibility</span>
+                  <span class="slider-val" id="val-p-flexibility">5/5</span>
+                </div>
+                <input type="range" class="tuner-slider" id="slider-p-flexibility" min="1" max="5" value="5">
+              </div>
+            </div>
+            
+            <button class="btn btn-primary btn-full-width" id="btn-tuner-reset">Reset to AI Default</button>
+          </div>
+
+          <!-- Comparison Columns Grid -->
+          <div class="compare-columns-grid" id="compare-cards-grid">
+            <!-- Columns rendered dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLOATING CHAT REFINEMENT BOX -->
+    <div class="chat-refinement-container" id="chat-refinement-widget">
+      <div class="chat-header" id="chat-header-toggle">
+        <div class="chat-header-title-row">
+          <span class="chat-indicator-dot"></span>
+          <span>Conversational Refinement</span>
+        </div>
+        <button class="chat-minimize-btn" id="btn-chat-toggle-icon">▲</button>
+      </div>
+      <div class="chat-body hidden" id="chat-widget-body">
+        <div class="chat-messages" id="chat-messages-container">
+          <div class="chat-msg system-msg">
+            <p><strong>PathFinder Guide:</strong> You can ask me to refine your path. Try asking:<br>
+            <em>• "What if I only have 5 hours a week?"</em><br>
+            <em>• "I don't want to do coding"</em><br>
+            <em>• "Add Python and SQL to my skills"</em></p>
+          </div>
+        </div>
+        <form class="chat-input-row" id="chat-refinement-form" onsubmit="event.preventDefault();">
+          <input type="text" id="chat-input-text" placeholder="Refine paths, ask about constraints..." autocomplete="off">
+          <button type="submit" class="chat-send-btn">Send</button>
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

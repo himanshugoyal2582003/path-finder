@@ -1,0 +1,96 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           String    @id @default(uuid())
+  email        String    @unique
+  passwordHash String
+  createdAt    DateTime  @default(now())
+  profile      Profile?
+
+  @@map("pathfinder_users")
+}
+
+model Profile {
+  id             String           @id @default(uuid())
+  userId         String           @unique
+  user           User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  skills         String[]
+  interests      String[]
+  goalText       String
+  hoursPerWeek   Int              @default(10)
+  timelineMonths Int              @default(6)
+  budgetPref     String           @default("free")
+  recommendations Recommendation[]
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  @@map("pathfinder_profiles")
+}
+
+model RoleArchetype {
+  id             String           @id @default(uuid())
+  name           String           @unique
+  requiredSkills String[]
+  description    String
+  embedding      Float[]          // Storing 384-dim embeddings as float array for portability
+  source         String           // e.g. "onet", "naukri", "scraped"
+  updatedAt      DateTime         @updatedAt
+  recommendations Recommendation[]
+
+  @@map("pathfinder_role_archetypes")
+}
+
+model RawIngest {
+  id         String   @id @default(uuid())
+  source     String
+  rawPayload Json
+  fetchedAt  DateTime @default(now())
+  processed  Boolean  @default(false)
+
+  @@map("pathfinder_raw_ingests")
+}
+
+model Recommendation {
+  id           String         @id @default(uuid())
+  profileId    String
+  profile      Profile        @relation(fields: [profileId], references: [id], onDelete: Cascade)
+  roleId       String
+  role         RoleArchetype  @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  fitScore     Int
+  explanation  String
+  phases       RoadmapPhase[]
+  createdAt    DateTime       @default(now())
+
+  @@map("pathfinder_recommendations")
+}
+
+model RoadmapPhase {
+  id               String         @id @default(uuid())
+  recommendationId String
+  recommendation   Recommendation @relation(fields: [recommendationId], references: [id], onDelete: Cascade)
+  phaseName        String
+  order            Int
+  items            RoadmapItem[]
+
+  @@map("pathfinder_roadmap_phases")
+}
+
+model RoadmapItem {
+  id          String       @id @default(uuid())
+  phaseId     String
+  phase       RoadmapPhase @relation(fields: [phaseId], references: [id], onDelete: Cascade)
+  title       String
+  resourceUrl String?
+  estHours    Int          @default(4)
+  order       Int          @default(0)
+  done        Boolean      @default(false)
+
+  @@map("pathfinder_roadmap_items")
+}

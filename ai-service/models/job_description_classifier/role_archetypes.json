@@ -1,0 +1,3165 @@
+[
+  {
+    "name": "Accountant",
+    "category": "ACCOUNTANT",
+    "requiredSkills": [
+      "Excel",
+      "Frontend",
+      "Finance"
+    ],
+    "description": "A Accountant path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/accountant-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Accountant",
+      "remoteok": "https://remoteok.com/remote-accountant-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Accountant responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Accountant",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Excel principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Excel Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Excel",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Excel",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Excel",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Frontend Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Frontend",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Frontend with Excel in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Frontend guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Finance Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Finance",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Finance",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Accountant capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Excel, Frontend, and Finance",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Accountant job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Accountant roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Accountant",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Advocate",
+    "category": "ADVOCATE",
+    "requiredSkills": [
+      "Frontend",
+      "Writing"
+    ],
+    "description": "A Advocate path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/advocate-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Advocate",
+      "remoteok": "https://remoteok.com/remote-advocate-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Advocate responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Advocate",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Writing Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Writing",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Writing with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Writing guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Advanced Practice Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Advanced Practice",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Advanced Practice",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Advocate capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Writing, and Advanced Practice",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Advocate job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Advocate roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Advocate",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Agriculture",
+    "category": "AGRICULTURE",
+    "requiredSkills": [
+      "Frontend"
+    ],
+    "description": "A Agriculture path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/agriculture-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Agriculture",
+      "remoteok": "https://remoteok.com/remote-agriculture-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Agriculture responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Agriculture",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Domain Tools Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Domain Tools",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Domain Tools with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Domain Tools guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Advanced Practice Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Advanced Practice",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Advanced Practice",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Agriculture capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Domain Tools, and Advanced Practice",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Agriculture job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Agriculture roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Agriculture",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Apparel",
+    "category": "APPAREL",
+    "requiredSkills": [
+      "Frontend",
+      "Figma Prototyping",
+      "Visual Design"
+    ],
+    "description": "A Apparel path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/apparel-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Apparel",
+      "remoteok": "https://remoteok.com/remote-apparel-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Apparel responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Apparel",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Figma Prototyping Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Figma Prototyping",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Figma Prototyping with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Figma Prototyping guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Visual Design Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Visual Design",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Visual Design",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Apparel capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Figma Prototyping, and Visual Design",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Apparel job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Apparel roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Apparel",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Arts",
+    "category": "ARTS",
+    "requiredSkills": [
+      "Frontend",
+      "Visual Design",
+      "Writing"
+    ],
+    "description": "A Arts path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/arts-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Arts",
+      "remoteok": "https://remoteok.com/remote-arts-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Arts responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Arts",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Visual Design Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Visual Design",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Visual Design with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Visual Design guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Writing Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Writing",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Writing",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Arts capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Visual Design, and Writing",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Arts job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Arts roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Arts",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Automobile",
+    "category": "AUTOMOBILE",
+    "requiredSkills": [
+      "Frontend",
+      "Communication"
+    ],
+    "description": "A Automobile path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/automobile-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Automobile",
+      "remoteok": "https://remoteok.com/remote-automobile-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Automobile responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Automobile",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Communication Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Communication",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Communication with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Communication guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Advanced Practice Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Advanced Practice",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Advanced Practice",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Automobile capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Communication, and Advanced Practice",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Automobile job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Automobile roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Automobile",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Aviation",
+    "category": "AVIATION",
+    "requiredSkills": [
+      "Frontend"
+    ],
+    "description": "A Aviation path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/aviation-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Aviation",
+      "remoteok": "https://remoteok.com/remote-aviation-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Aviation responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Aviation",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Domain Tools Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Domain Tools",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Domain Tools with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Domain Tools guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Advanced Practice Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Advanced Practice",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Advanced Practice",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Aviation capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Domain Tools, and Advanced Practice",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Aviation job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Aviation roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Aviation",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bpo",
+    "category": "BPO",
+    "requiredSkills": [
+      "Frontend",
+      "User Empathy",
+      "Sales",
+      "Communication"
+    ],
+    "description": "A Bpo path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/bpo-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Bpo",
+      "remoteok": "https://remoteok.com/remote-bpo-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Bpo responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Bpo",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: User Empathy Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for User Empathy",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate User Empathy with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using User Empathy guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Sales Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Sales",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Sales",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: Communication & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in Communication",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Bpo capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, User Empathy, and Sales",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Bpo job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Bpo roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Bpo",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Construction",
+    "category": "CONSTRUCTION",
+    "requiredSkills": [
+      "Frontend",
+      "Project Management"
+    ],
+    "description": "A Construction path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/construction-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Construction",
+      "remoteok": "https://remoteok.com/remote-construction-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Construction responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Construction",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Project Management Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Project Management",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Project Management with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Project Management guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Advanced Practice Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Advanced Practice",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Advanced Practice",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Construction capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Project Management, and Advanced Practice",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Construction job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Construction roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Construction",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Consultant",
+    "category": "CONSULTANT",
+    "requiredSkills": [
+      "Project Management",
+      "Data Analysis",
+      "Frontend",
+      "User Research",
+      "Communication"
+    ],
+    "description": "A Consultant path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/consultant-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Consultant",
+      "remoteok": "https://remoteok.com/remote-consultant-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Consultant responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Consultant",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Project Management principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Project Management Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Project Management",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Project Management",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Project Management",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Data Analysis Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Data Analysis",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Data Analysis with Project Management in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Data Analysis guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Frontend Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Frontend",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Frontend",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: User Research & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in User Research",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Consultant capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Project Management, Data Analysis, and Frontend",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Consultant job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Consultant roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Consultant",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Data Science",
+    "category": "DATA-SCIENCE",
+    "requiredSkills": [
+      "Python",
+      "PowerBI/Tableau",
+      "Machine Learning",
+      "Deep Learning",
+      "Excel",
+      "Data Analysis",
+      "Statistics",
+      "NLP"
+    ],
+    "description": "A Data Science path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/data-science-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Data+Science",
+      "remoteok": "https://remoteok.com/remote-data-science-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Data Science responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Data Science",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Python principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Python Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Python",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Python",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Python",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: PowerBI/Tableau Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for PowerBI/Tableau",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate PowerBI/Tableau with Python in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using PowerBI/Tableau guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Machine Learning Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Machine Learning",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Machine Learning",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: Deep Learning & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in Deep Learning",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Data Science capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Python, PowerBI/Tableau, and Machine Learning",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Data Science job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Data Science roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Data Science",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Designer",
+    "category": "DESIGNER",
+    "requiredSkills": [
+      "Figma Prototyping",
+      "User Research",
+      "Frontend",
+      "Visual Design",
+      "Design Systems",
+      "User Empathy"
+    ],
+    "description": "A Designer path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/designer-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Designer",
+      "remoteok": "https://remoteok.com/remote-designer-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Designer responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Designer",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Figma Prototyping principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Figma Prototyping Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Figma Prototyping",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Figma Prototyping",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Figma Prototyping",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: User Research Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for User Research",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate User Research with Figma Prototyping in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using User Research guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Frontend Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Frontend",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Frontend",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: Visual Design & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in Visual Design",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Designer capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Figma Prototyping, User Research, and Frontend",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Designer job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Designer roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Designer",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Digital Media",
+    "category": "DIGITAL-MEDIA",
+    "requiredSkills": [
+      "Marketing",
+      "A/B Testing",
+      "Writing",
+      "Google Analytics",
+      "SEO",
+      "Excel",
+      "Data Analysis",
+      "Frontend"
+    ],
+    "description": "A Digital Media path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/digital-media-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Digital+Media",
+      "remoteok": "https://remoteok.com/remote-digital-media-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Digital Media responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Digital Media",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Marketing principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Marketing Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Marketing",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Marketing",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Marketing",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: A/B Testing Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for A/B Testing",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate A/B Testing with Marketing in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using A/B Testing guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Writing Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Writing",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Writing",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: Google Analytics & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in Google Analytics",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Digital Media capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Marketing, A/B Testing, and Writing",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Digital Media job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Digital Media roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Digital Media",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Engineering",
+    "category": "ENGINEERING",
+    "requiredSkills": [
+      "Frontend"
+    ],
+    "description": "A Engineering path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/engineering-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Engineering",
+      "remoteok": "https://remoteok.com/remote-engineering-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Engineering responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Engineering",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Domain Tools Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Domain Tools",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Domain Tools with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Domain Tools guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Advanced Practice Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Advanced Practice",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Advanced Practice",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Engineering capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Domain Tools, and Advanced Practice",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Engineering job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Engineering roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Engineering",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Finance",
+    "category": "FINANCE",
+    "requiredSkills": [
+      "Finance",
+      "Excel",
+      "Frontend"
+    ],
+    "description": "A Finance path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/finance-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Finance",
+      "remoteok": "https://remoteok.com/remote-finance-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Finance responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Finance",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Finance principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Finance Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Finance",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Finance",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Finance",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Excel Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Excel",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Excel with Finance in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Excel guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Frontend Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Frontend",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Frontend",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Finance capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Finance, Excel, and Frontend",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Finance job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Finance roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Finance",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Healthcare",
+    "category": "HEALTHCARE",
+    "requiredSkills": [
+      "Healthcare & Medical",
+      "Frontend",
+      "User Empathy"
+    ],
+    "description": "A Healthcare path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/healthcare-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Healthcare",
+      "remoteok": "https://remoteok.com/remote-healthcare-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Healthcare responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Healthcare",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Healthcare & Medical principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Healthcare & Medical Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Healthcare & Medical",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Healthcare & Medical",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Healthcare & Medical",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Frontend Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Frontend",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Frontend with Healthcare & Medical in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Frontend guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: User Empathy Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of User Empathy",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving User Empathy",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Healthcare capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Healthcare & Medical, Frontend, and User Empathy",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Healthcare job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Healthcare roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Healthcare",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hr",
+    "category": "HR",
+    "requiredSkills": [
+      "Frontend",
+      "User Research",
+      "Marketing",
+      "Communication",
+      "Project Management"
+    ],
+    "description": "A Hr path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/hr-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Hr",
+      "remoteok": "https://remoteok.com/remote-hr-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Hr responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Hr",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: User Research Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for User Research",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate User Research with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using User Research guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Marketing Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Marketing",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Marketing",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: Communication & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in Communication",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Hr capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, User Research, and Marketing",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Hr job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Hr roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Hr",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Public Relations",
+    "category": "PUBLIC-RELATIONS",
+    "requiredSkills": [
+      "Frontend",
+      "Writing",
+      "Communication"
+    ],
+    "description": "A Public Relations path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/public-relations-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Public+Relations",
+      "remoteok": "https://remoteok.com/remote-public-relations-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Public Relations responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Public Relations",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Writing Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Writing",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Writing with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Writing guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Communication Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Communication",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Communication",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Public Relations capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Writing, and Communication",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Public Relations job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Public Relations roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Public Relations",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sales",
+    "category": "SALES",
+    "requiredSkills": [
+      "Sales",
+      "Communication",
+      "Frontend"
+    ],
+    "description": "A Sales path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/sales-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Sales",
+      "remoteok": "https://remoteok.com/remote-sales-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Sales responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Sales",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Sales principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Sales Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Sales",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Sales",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Sales",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Communication Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Communication",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Communication with Sales in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Communication guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Frontend Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Frontend",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Frontend",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Sales capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Sales, Communication, and Frontend",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Sales job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Sales roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Sales",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Software Engineering",
+    "category": "SOFTWARE-ENGINEERING",
+    "requiredSkills": [
+      "JavaScript",
+      "API Design",
+      "Backend",
+      "SQL",
+      "DevOps",
+      "Java",
+      "Frontend",
+      "Python"
+    ],
+    "description": "A Software Engineering path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/software-engineering-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Software+Engineering",
+      "remoteok": "https://remoteok.com/remote-software-engineering-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Software Engineering responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Software Engineering",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on JavaScript principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: JavaScript Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of JavaScript",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on JavaScript",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in JavaScript",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: API Design Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for API Design",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate API Design with JavaScript in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using API Design guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Backend Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Backend",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Backend",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: SQL & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in SQL",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Software Engineering capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using JavaScript, API Design, and Backend",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Software Engineering job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Software Engineering roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Software Engineering",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  },
+  {
+    "name": "Teacher",
+    "category": "TEACHER",
+    "requiredSkills": [
+      "Frontend",
+      "Communication"
+    ],
+    "description": "A Teacher path derived from job market demand signals and skill taxonomies.",
+    "weights": {},
+    "source": "resume-csv",
+    "jobMarketLinks": {
+      "naukri": "https://www.naukri.com/teacher-jobs",
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Teacher",
+      "remoteok": "https://remoteok.com/remote-teacher-jobs"
+    },
+    "weeklyActions": {
+      "Phase 1: Industry Foundations & Tooling": [
+        {
+          "title": "Study core Teacher responsibilities, industry standards, and vocabulary",
+          "source": "Role research & documentation",
+          "estHours": 4
+        },
+        {
+          "title": "Set up working environment, IDEs, and essential toolchains for Teacher",
+          "source": "Setup guide",
+          "estHours": 3
+        },
+        {
+          "title": "Complete introductory training module on Frontend principles",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Frontend Mastery": [
+        {
+          "title": "Deep dive into core architecture and workflow patterns of Frontend",
+          "source": "Official documentation",
+          "estHours": 6
+        },
+        {
+          "title": "Complete 5 hands-on practical exercises focusing on Frontend",
+          "source": "Practice lab",
+          "estHours": 6
+        },
+        {
+          "title": "Build a standalone module demonstrating proficiency in Frontend",
+          "source": "Mini project",
+          "estHours": 8
+        }
+      ],
+      "Phase 3: Communication Advanced Practice": [
+        {
+          "title": "Learn industry best practices and design patterns for Communication",
+          "source": "Advanced course",
+          "estHours": 6
+        },
+        {
+          "title": "Integrate Communication with Frontend in a multi-component practice scenario",
+          "source": "Lab scenario",
+          "estHours": 7
+        },
+        {
+          "title": "Refactor code and optimize efficiency using Communication guidelines",
+          "source": "Self-audit",
+          "estHours": 4
+        }
+      ],
+      "Phase 4: Advanced Practice Integration & Workflows": [
+        {
+          "title": "Master core frameworks and operational paradigms of Advanced Practice",
+          "source": "Technical workshop",
+          "estHours": 6
+        },
+        {
+          "title": "Build automated pipelines and tests involving Advanced Practice",
+          "source": "Project build",
+          "estHours": 8
+        },
+        {
+          "title": "Document system workflow architecture and trade-offs",
+          "source": "Technical writing",
+          "estHours": 4
+        }
+      ],
+      "Phase 5: System Operations & Specialty Skills": [
+        {
+          "title": "Explore advanced topics, security, and scalability in System Operations",
+          "source": "Specialty guide",
+          "estHours": 6
+        },
+        {
+          "title": "Perform diagnostics, edge-case handling, and performance tuning",
+          "source": "Optimization lab",
+          "estHours": 5
+        }
+      ],
+      "Phase 6: Industry Capstone Project": [
+        {
+          "title": "Scope a real-world end-to-end Teacher capstone project addressing market needs",
+          "source": "Capstone brief",
+          "estHours": 4
+        },
+        {
+          "title": "Implement full solution using Frontend, Communication, and Advanced Practice",
+          "source": "Full stack build",
+          "estHours": 12
+        },
+        {
+          "title": "Perform peer review, stress testing, and code quality verification",
+          "source": "Code review",
+          "estHours": 5
+        }
+      ],
+      "Phase 7: Portfolio Case Study & Public Deployment": [
+        {
+          "title": "Write an 800-word comprehensive technical case study describing your capstone",
+          "source": "Case study publication",
+          "estHours": 6
+        },
+        {
+          "title": "Publish project repository on GitHub with detailed README and architecture diagrams",
+          "source": "GitHub / Portfolio",
+          "estHours": 5
+        },
+        {
+          "title": "Deploy live demonstration app/dashboard on Vercel, Render, or cloud provider",
+          "source": "Cloud deployment",
+          "estHours": 4
+        }
+      ],
+      "Phase 8: Career Readiness & Naukri Applications": [
+        {
+          "title": "Tailor your resume and LinkedIn profile specifically for Teacher job postings",
+          "source": "Career optimization",
+          "estHours": 4
+        },
+        {
+          "title": "Apply to live Teacher roles on Naukri.com, LinkedIn, and RemoteOK",
+          "source": "Naukri Job Portal",
+          "estHours": 4
+        },
+        {
+          "title": "Practice 10 technical and behavioral interview scenarios tailored to Teacher",
+          "source": "Mock interview prep",
+          "estHours": 5
+        }
+      ]
+    }
+  }
+]

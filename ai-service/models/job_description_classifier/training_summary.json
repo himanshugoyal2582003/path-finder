@@ -1,0 +1,31 @@
+{
+  "model": "tfidf-logistic-regression-jd",
+  "samples": 1170,
+  "num_classes": 21,
+  "categories": [
+    "ACCOUNTANT",
+    "ADVOCATE",
+    "AGRICULTURE",
+    "APPAREL",
+    "ARTS",
+    "AUTOMOBILE",
+    "AVIATION",
+    "BPO",
+    "CONSTRUCTION",
+    "CONSULTANT",
+    "DATA-SCIENCE",
+    "DESIGNER",
+    "DIGITAL-MEDIA",
+    "ENGINEERING",
+    "FINANCE",
+    "HEALTHCARE",
+    "HR",
+    "PUBLIC-RELATIONS",
+    "SALES",
+    "SOFTWARE-ENGINEERING",
+    "TEACHER"
+  ],
+  "test_accuracy": 1.0,
+  "test_macro_f1": 1.0,
+  "live_job_fetch_enabled": false
+}

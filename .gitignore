@@ -1,0 +1,19 @@
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+
+backend/node_modules/
+backend/.env
+
+ai-service/venv/
+ai-service/__pycache__/
+ai-service/*.pyc
+
+.venv
+.agents
+.claude
+
+
+# OS files
+.DS_Store
+Thumbs.db

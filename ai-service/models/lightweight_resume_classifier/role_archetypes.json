@@ -1,0 +1,1610 @@
+[
+  {
+    "name": "Accountant",
+    "category": "ACCOUNTANT",
+    "requiredSkills": [
+      "Marketing",
+      "Finance",
+      "Excel",
+      "Statistics",
+      "API Design",
+      "Sales",
+      "Communication",
+      "SQL"
+    ],
+    "description": "A Accountant path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Accountant responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Marketing",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Finance",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Marketing to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Excel",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Accountant roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Advocate",
+    "category": "ADVOCATE",
+    "requiredSkills": [
+      "Marketing",
+      "Finance",
+      "SQL",
+      "Excel",
+      "Data Analysis",
+      "API Design",
+      "Frontend",
+      "User Empathy"
+    ],
+    "description": "A Advocate path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Advocate responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Marketing",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Finance",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Marketing to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating SQL",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Advocate roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Agriculture",
+    "category": "AGRICULTURE",
+    "requiredSkills": [
+      "Data Analysis",
+      "Marketing",
+      "Finance",
+      "JavaScript",
+      "Excel",
+      "Cloud",
+      "API Design",
+      "Frontend"
+    ],
+    "description": "A Agriculture path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Agriculture responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Marketing",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Finance",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Agriculture roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Apparel",
+    "category": "APPAREL",
+    "requiredSkills": [
+      "Data Analysis",
+      "Frontend",
+      "Marketing",
+      "Finance",
+      "Excel",
+      "API Design",
+      "Backend",
+      "Writing"
+    ],
+    "description": "A Apparel path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Apparel responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Frontend",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Marketing",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Apparel roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Arts",
+    "category": "ARTS",
+    "requiredSkills": [
+      "User Research",
+      "Marketing",
+      "Finance",
+      "SQL",
+      "Data Analysis",
+      "Cloud",
+      "API Design",
+      "Frontend"
+    ],
+    "description": "A Arts path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Arts responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in User Research",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Marketing",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect User Research to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Finance",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Arts roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Automobile",
+    "category": "AUTOMOBILE",
+    "requiredSkills": [
+      "SQL",
+      "Data Analysis",
+      "Marketing",
+      "Finance",
+      "Python",
+      "Excel",
+      "Machine Learning",
+      "API Design"
+    ],
+    "description": "A Automobile path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Automobile responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in SQL",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Data Analysis",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect SQL to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Marketing",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Automobile roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Aviation",
+    "category": "AVIATION",
+    "requiredSkills": [
+      "SQL",
+      "Data Analysis",
+      "User Empathy",
+      "Marketing",
+      "Finance",
+      "API Design",
+      "Frontend",
+      "Backend"
+    ],
+    "description": "A Aviation path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Aviation responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in SQL",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Data Analysis",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect SQL to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating User Empathy",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Aviation roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Banking",
+    "category": "BANKING",
+    "requiredSkills": [
+      "SQL",
+      "JavaScript",
+      "Data Analysis",
+      "Cloud",
+      "Backend",
+      "Marketing",
+      "Finance",
+      "Sales"
+    ],
+    "description": "A Banking path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Banking responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in SQL",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using JavaScript",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect SQL to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Data Analysis",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Banking roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bpo",
+    "category": "BPO",
+    "requiredSkills": [
+      "Data Analysis",
+      "Backend",
+      "Marketing",
+      "Finance",
+      "API Design",
+      "Frontend",
+      "Sales",
+      "Communication"
+    ],
+    "description": "A Bpo path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Bpo responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Backend",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Marketing",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Bpo roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Business Development",
+    "category": "BUSINESS-DEVELOPMENT",
+    "requiredSkills": [
+      "Data Analysis",
+      "Marketing",
+      "Finance",
+      "Sales",
+      "Excel",
+      "Cloud",
+      "API Design",
+      "SEO"
+    ],
+    "description": "A Business Development path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Business Development responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Marketing",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Finance",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Business Development roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Chef",
+    "category": "CHEF",
+    "requiredSkills": [
+      "Marketing",
+      "Finance",
+      "Excel",
+      "Cloud",
+      "Frontend",
+      "Communication",
+      "Java",
+      "Data Analysis"
+    ],
+    "description": "A Chef path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Chef responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Marketing",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Finance",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Marketing to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Excel",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Chef roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Construction",
+    "category": "CONSTRUCTION",
+    "requiredSkills": [
+      "Marketing",
+      "Finance",
+      "SQL",
+      "Excel",
+      "Data Analysis",
+      "API Design",
+      "Frontend",
+      "Backend"
+    ],
+    "description": "A Construction path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Construction responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Marketing",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Finance",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Marketing to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating SQL",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Construction roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Consultant",
+    "category": "CONSULTANT",
+    "requiredSkills": [
+      "Data Analysis",
+      "Frontend",
+      "Backend",
+      "Marketing",
+      "Finance",
+      "Sales",
+      "Project Management",
+      "SQL"
+    ],
+    "description": "A Consultant path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Consultant responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Frontend",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Backend",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Consultant roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Designer",
+    "category": "DESIGNER",
+    "requiredSkills": [
+      "Data Analysis",
+      "Frontend",
+      "Visual Design",
+      "User Empathy",
+      "Marketing",
+      "Finance",
+      "Project Management",
+      "Java"
+    ],
+    "description": "A Designer path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Designer responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Frontend",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Visual Design",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Designer roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Digital Media",
+    "category": "DIGITAL-MEDIA",
+    "requiredSkills": [
+      "Data Analysis",
+      "User Research",
+      "Writing",
+      "Marketing",
+      "Finance",
+      "Sales",
+      "Project Management",
+      "SQL"
+    ],
+    "description": "A Digital Media path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Digital Media responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using User Research",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Writing",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Digital Media roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Engineering",
+    "category": "ENGINEERING",
+    "requiredSkills": [
+      "SQL",
+      "Data Analysis",
+      "Frontend",
+      "Backend",
+      "Marketing",
+      "Finance",
+      "Project Management",
+      "PowerBI/Tableau"
+    ],
+    "description": "A Engineering path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Engineering responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in SQL",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Data Analysis",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect SQL to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Frontend",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Engineering roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Finance",
+    "category": "FINANCE",
+    "requiredSkills": [
+      "Data Analysis",
+      "Marketing",
+      "Finance",
+      "Excel",
+      "API Design",
+      "Writing",
+      "Sales",
+      "Communication"
+    ],
+    "description": "A Finance path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Finance responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Marketing",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Finance",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Finance roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Fitness",
+    "category": "FITNESS",
+    "requiredSkills": [
+      "Marketing",
+      "Finance",
+      "Project Management",
+      "Excel",
+      "Statistics",
+      "API Design",
+      "User Empathy",
+      "Sales"
+    ],
+    "description": "A Fitness path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Fitness responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Marketing",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Finance",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Marketing to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Project Management",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Fitness roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Healthcare",
+    "category": "HEALTHCARE",
+    "requiredSkills": [
+      "Data Analysis",
+      "Marketing",
+      "Finance",
+      "Sales",
+      "Project Management",
+      "SQL",
+      "Excel",
+      "Cloud"
+    ],
+    "description": "A Healthcare path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Healthcare responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Marketing",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Finance",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Healthcare roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hr",
+    "category": "HR",
+    "requiredSkills": [
+      "Marketing",
+      "Finance",
+      "Excel",
+      "Data Analysis",
+      "API Design",
+      "Frontend",
+      "User Research",
+      "User Empathy"
+    ],
+    "description": "A Hr path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Hr responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Marketing",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Finance",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Marketing to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Excel",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Hr roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Information Technology",
+    "category": "INFORMATION-TECHNOLOGY",
+    "requiredSkills": [
+      "Data Analysis",
+      "Frontend",
+      "Backend",
+      "Marketing",
+      "Finance",
+      "Project Management",
+      "SQL",
+      "Excel"
+    ],
+    "description": "A Information Technology path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Information Technology responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Frontend",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Backend",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Information Technology roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Public Relations",
+    "category": "PUBLIC-RELATIONS",
+    "requiredSkills": [
+      "Writing",
+      "Marketing",
+      "Finance",
+      "Data Analysis",
+      "Statistics",
+      "Cloud",
+      "API Design",
+      "Frontend"
+    ],
+    "description": "A Public Relations path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Public Relations responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Writing",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Marketing",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Writing to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Finance",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Public Relations roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sales",
+    "category": "SALES",
+    "requiredSkills": [
+      "Data Analysis",
+      "User Empathy",
+      "Marketing",
+      "Finance",
+      "Sales",
+      "Frontend",
+      "Communication",
+      "Project Management"
+    ],
+    "description": "A Sales path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Sales responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Data Analysis",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using User Empathy",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Data Analysis to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating Marketing",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Sales roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  },
+  {
+    "name": "Teacher",
+    "category": "TEACHER",
+    "requiredSkills": [
+      "Marketing",
+      "Data Analysis",
+      "API Design",
+      "Writing",
+      "User Empathy",
+      "Finance",
+      "Communication",
+      "Project Management"
+    ],
+    "description": "A Teacher path derived from resume patterns and enriched with job-market skill signals when available.",
+    "weights": {},
+    "source": "resume-csv",
+    "weeklyActions": {
+      "Phase 1: Foundations": [
+        {
+          "title": "Study core Teacher responsibilities and vocabulary",
+          "source": "Role research",
+          "estHours": 4
+        },
+        {
+          "title": "Complete a beginner exercise in Marketing",
+          "source": "Structured course",
+          "estHours": 5
+        }
+      ],
+      "Phase 2: Core Skills": [
+        {
+          "title": "Build a small project using Data Analysis",
+          "source": "Practice project",
+          "estHours": 6
+        },
+        {
+          "title": "Write notes that connect Marketing to real job tasks",
+          "source": "Self-study",
+          "estHours": 3
+        }
+      ],
+      "Phase 3: Applied Practice": [
+        {
+          "title": "Create one portfolio artifact demonstrating API Design",
+          "source": "Portfolio build",
+          "estHours": 8
+        },
+        {
+          "title": "Ask two peers or mentors for feedback",
+          "source": "Professional network",
+          "estHours": 2
+        }
+      ],
+      "Phase 4: Job Readiness": [
+        {
+          "title": "Tailor your resume for Teacher roles",
+          "source": "Career preparation",
+          "estHours": 4
+        },
+        {
+          "title": "Practice five role-specific interview questions",
+          "source": "Interview prep",
+          "estHours": 3
+        }
+      ]
+    }
+  }
+]
