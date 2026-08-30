@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Antigravity PathFinder — AI Career & Learning Roadmap",
+  title: "Life Path Finder — AI Career & Learning Roadmap",
   description: "Personalized, explainable career roadmaps powered by multi-agent AI. Identify skill gaps and get a phased curriculum instantly.",
 };
 

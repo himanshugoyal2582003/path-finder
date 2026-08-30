@@ -480,7 +480,7 @@ export default function PathFinderApp() {
               <svg className="icon-indigo" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
               </svg>
-              <span>Antigravity <span style={{fontWeight: 300, color: 'var(--slate-500)'}}>PathFinder</span></span>
+              <span>Life Path <span style={{fontWeight: 300, color: 'var(--slate-500)'}}>Finder</span></span>
             </div>
             <nav className="nav-links">
               <a href="#" onClick={() => setCurrentView('landing')} className={currentView === 'landing' ? 'active' : ''}>Home</a>
@@ -520,7 +520,7 @@ export default function PathFinderApp() {
               <span className="eyebrow">Prototype Round 2</span>
               <h1 className="hero-title">Translate messy skills into a structured career path</h1>
               <p className="hero-subtitle">
-                Antigravity takes your skills, interests, and constraints and uses multi-agent AI to generate tailored role matching, gap analysis, and week-by-week curriculum roadmaps.
+                Life Path Finder takes your skills, interests, and constraints and uses multi-agent AI to generate tailored role matching, gap analysis, and week-by-week curriculum roadmaps.
               </p>
               <div className="hero-actions">
                 {isSignedIn ? (
@@ -538,7 +538,7 @@ export default function PathFinderApp() {
             </div>
             <div className="hero-visual">
               <div className="compass-container">
-                <img src="/compass.png?v=2" alt="Pathfinder Compass" className="floating-3d-object" />
+                <img src="/images/compass.png?v=2" alt="Pathfinder Compass" className="floating-3d-object" />
                 <div className="glow-radial"></div>
               </div>
             </div>
@@ -574,7 +574,7 @@ export default function PathFinderApp() {
           </section>
 
           <footer className="app-footer">
-            <p>Â© 2026 Antigravity Inc. Built for Career PathFinder Demo. All rights reserved.</p>
+            <p>Â© 2026 Life Path Finder. Built for career roadmap planning. All rights reserved.</p>
           </footer>
         </section>
       )}
@@ -811,7 +811,7 @@ export default function PathFinderApp() {
         <section id="view-loading-pipeline" className="view-section active">
           <div className="pipeline-loader-content">
             <div className="loader-visual-wrapper">
-              <img src="/compass.png" alt="Compass" className="rotating-compass" />
+              <img src="/images/compass.png" alt="Compass" className="rotating-compass" />
               <div className="glow-radial-loader"></div>
             </div>
             <h2>Running Multi-Agent Evaluation</h2>
@@ -886,7 +886,7 @@ export default function PathFinderApp() {
             <div className="review-right">
               <div className="review-visual-card">
                 <div className="visual-img-container">
-                  <img id="review-constellation" src="/constellation.png" alt="Skill Constellation" />
+                  <img id="review-constellation" src="/images/constellation.png" alt="Skill Constellation" />
                 </div>
                 
                 <div className="inferred-profile-card">
@@ -927,7 +927,7 @@ export default function PathFinderApp() {
               <svg className="icon-indigo" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
               </svg>
-              <span>Antigravity Dashboard</span>
+              <span>Life Path Finder Dashboard</span>
             </div>
             
             <div style={{display: 'flex', gap: '16px', alignItems: 'center'}}>
